@@ -68,7 +68,7 @@ alias shred='shred -v -n 10 -u'
 gc() {
   git clone "$1" && cd "$(basename "$_" .git)"
 }
-
+alias btop='btop --utf-force'
 alias wal='wal -i /home/user/pic/wal && pywal-discord -t abou && wal-telegram --wal'
 alias f='fuck'
 alias du='du -h'
